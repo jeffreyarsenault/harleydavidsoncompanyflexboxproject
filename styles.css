@@ -1,0 +1,125 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto+Mono:100,200,300,regular,500,600,700,100italic,200italic,300italic,italic,500italic,600italic,700italic);
+
+body {
+    margin: 0;
+    font-family: Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(250, 220, 181);
+    font-size: 22px;
+    text-align: center;
+    background-image: url(https://t3.ftcdn.net/jpg/01/27/47/12/360_F_127471210_VkRs7xWsmyWFOvGnni70WVHOVTmxhPh2.jpg)
+  }
+
+
+  .header {
+    position: relative;
+    text-align: center;
+  }
+  
+  .header .logo {
+    position: absolute;
+    left: 0;
+  }
+
+.heading {
+    padding-top: 2px;
+}
+
+h1 {
+    font-size: 5rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: antiquewhite;
+}
+
+
+a {
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+}
+
+
+
+nav{
+    text-align: center;
+}
+nav ul{
+    display: inline-flex;
+}
+
+nav ul li{
+    padding-right: 2%;
+    list-style: none;
+    min-width: max-content;
+}
+
+nav ul li:last-child{
+    padding-right: 10%;
+}
+
+nav ul a {
+    color: antiquewhite;
+    font-size: 1em;
+    text-decoration: none;
+}
+
+.mission {
+    padding-top: 70px;
+    padding-top: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.mission img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%;
+    height: auto;
+    border: 4px solid wheat;
+    border-radius: 25px;
+}
+
+.current {
+    padding-top: 70px;
+    padding-top: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.current-model {
+    padding: 10px;
+    flex-basis: auto;
+}
+
+.current img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: auto;
+    border: 4px solid wheat;
+    border-radius: 25px;
+}
+
+.team {
+    padding-top: 70px;
+    padding-top: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .teammate {
+    padding: 10px;
+    flex-basis: 280px;
+  }
+  
+  .teammate img {
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: auto;
+    border: 4px solid wheat;
+    border-radius: 25px;
+  }
